@@ -1,0 +1,60 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ivan Massanares - Desenvolvedor Backend</title>
+  <desc id="desc">Banner azul escuro com o nome Ivan Massanares e as especialidades Backend, APIs, Dados e Automação.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071426"/>
+      <stop offset="0.55" stop-color="#0B2039"/>
+      <stop offset="1" stop-color="#102A43"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="174" y1="74" x2="960" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1015 72) rotate(137.3) scale(382 278)">
+      <stop stop-color="#0EA5E9" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-80" y="-80" width="520" height="520" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="52"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="26" fill="url(#bg)"/>
+  <ellipse cx="1060" cy="112" rx="220" ry="170" fill="url(#glow)" filter="url(#blur)"/>
+
+  <g opacity="0.22" stroke="#7DD3FC">
+    <path d="M865 54H1118"/>
+    <path d="M815 91H1078"/>
+    <path d="M900 128H1154"/>
+    <path d="M837 165H1094"/>
+    <path d="M879 202H1135"/>
+    <path d="M805 239H1045"/>
+    <circle cx="865" cy="54" r="5" fill="#38BDF8"/>
+    <circle cx="1078" cy="91" r="5" fill="#38BDF8"/>
+    <circle cx="900" cy="128" r="5" fill="#38BDF8"/>
+    <circle cx="1094" cy="165" r="5" fill="#38BDF8"/>
+    <circle cx="879" cy="202" r="5" fill="#38BDF8"/>
+    <circle cx="1045" cy="239" r="5" fill="#38BDF8"/>
+  </g>
+
+  <g transform="translate(76 68)">
+    <rect x="0" y="0" width="46" height="46" rx="12" fill="#0EA5E9" fill-opacity="0.16" stroke="#38BDF8" stroke-opacity="0.75"/>
+    <path d="M16 15L8 23L16 31M30 15L38 23L30 31" stroke="#7DD3FC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="76" y="166" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5">Ivan Massanares</text>
+  <text x="78" y="211" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="600">Desenvolvedor Backend</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="1.6" fill="#CBD5E1">
+    <text x="78" y="263">BACKEND</text>
+    <circle cx="184" cy="257" r="3" fill="#38BDF8"/>
+    <text x="204" y="263">APIS</text>
+    <circle cx="269" cy="257" r="3" fill="#38BDF8"/>
+    <text x="289" y="263">DADOS</text>
+    <circle cx="375" cy="257" r="3" fill="#38BDF8"/>
+    <text x="395" y="263">AUTOMAÇÃO</text>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="318.5" rx="25.25" stroke="#38BDF8" stroke-opacity="0.2" stroke-width="1.5"/>
+</svg>
