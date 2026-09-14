@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Ivan Massanares - Backend Developer" width="100%" />
+  <img src="./assets/profile-header.svg?v=2" alt="Ivan Massanares - Backend Developer" width="100%" />
 </p>
 
 <p align="center">
