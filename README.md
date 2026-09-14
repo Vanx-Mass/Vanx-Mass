@@ -122,7 +122,7 @@
   <summary><strong>🎓 Formação e idiomas</strong></summary>
   <br/>
   <ul>
-    <li>Ciência de Dados na FIAP - em andamento</li>
+    <li>Ciência de Dados | FIAP - 2026</li>
     <li>Inglês fluente</li>
     <li>Francês intermediário</li>
   </ul>
