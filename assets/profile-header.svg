@@ -1,60 +1,79 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Ivan Massanares - Desenvolvedor Backend</title>
-  <desc id="desc">Banner azul escuro com o nome Ivan Massanares e as especialidades Backend, APIs, Dados e Automação.</desc>
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ivan Massanares - Backend Developer</title>
+  <desc id="desc">Banner azul escuro com o nome Ivan Massanares, especialidades técnicas e um terminal ilustrado.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#071426"/>
-      <stop offset="0.55" stop-color="#0B2039"/>
-      <stop offset="1" stop-color="#102A43"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06111F"/>
+      <stop offset="0.55" stop-color="#0A1E35"/>
+      <stop offset="1" stop-color="#0B2B46"/>
     </linearGradient>
-    <linearGradient id="accent" x1="174" y1="74" x2="960" y2="260" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="82" y1="123" x2="612" y2="244" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
       <stop offset="1" stop-color="#22D3EE"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1015 72) rotate(137.3) scale(382 278)">
-      <stop stop-color="#0EA5E9" stop-opacity="0.34"/>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1038 68) rotate(140) scale(470 330)">
+      <stop stop-color="#0EA5E9" stop-opacity="0.32"/>
       <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blur" x="-80" y="-80" width="520" height="520" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="52"/>
+    <filter id="shadow" x="650" y="37" width="493" height="293" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#020617" flood-opacity="0.45"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="320" rx="26" fill="url(#bg)"/>
-  <ellipse cx="1060" cy="112" rx="220" ry="170" fill="url(#glow)" filter="url(#blur)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="27" stroke="#38BDF8" stroke-opacity="0.22" stroke-width="2"/>
+  <ellipse cx="1038" cy="68" rx="286" ry="218" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
 
-  <g opacity="0.22" stroke="#7DD3FC">
-    <path d="M865 54H1118"/>
-    <path d="M815 91H1078"/>
-    <path d="M900 128H1154"/>
-    <path d="M837 165H1094"/>
-    <path d="M879 202H1135"/>
-    <path d="M805 239H1045"/>
-    <circle cx="865" cy="54" r="5" fill="#38BDF8"/>
-    <circle cx="1078" cy="91" r="5" fill="#38BDF8"/>
-    <circle cx="900" cy="128" r="5" fill="#38BDF8"/>
-    <circle cx="1094" cy="165" r="5" fill="#38BDF8"/>
-    <circle cx="879" cy="202" r="5" fill="#38BDF8"/>
-    <circle cx="1045" cy="239" r="5" fill="#38BDF8"/>
+  <g opacity="0.2" stroke="#7DD3FC">
+    <path d="M0 302H1200"/>
+    <path d="M0 320H1200"/>
+    <path d="M0 338H1200"/>
   </g>
 
-  <g transform="translate(76 68)">
-    <rect x="0" y="0" width="46" height="46" rx="12" fill="#0EA5E9" fill-opacity="0.16" stroke="#38BDF8" stroke-opacity="0.75"/>
-    <path d="M16 15L8 23L16 31M30 15L38 23L30 31" stroke="#7DD3FC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(78 66)">
+    <rect width="50" height="50" rx="14" fill="#0EA5E9" fill-opacity="0.16" stroke="#38BDF8" stroke-opacity="0.8"/>
+    <path d="M18 16L9 25L18 34M32 16L41 25L32 34" stroke="#7DD3FC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <text x="76" y="166" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5">Ivan Massanares</text>
-  <text x="78" y="211" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="600">Desenvolvedor Backend</text>
+  <text x="78" y="174" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5">Ivan Massanares</text>
+  <text x="80" y="219" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="600">Backend Developer</text>
+  <text x="80" y="259" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="18">APIs confiáveis • automação • sistemas orientados a eventos</text>
 
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="1.6" fill="#CBD5E1">
-    <text x="78" y="263">BACKEND</text>
-    <circle cx="184" cy="257" r="3" fill="#38BDF8"/>
-    <text x="204" y="263">APIS</text>
-    <circle cx="269" cy="257" r="3" fill="#38BDF8"/>
-    <text x="289" y="263">DADOS</text>
-    <circle cx="375" cy="257" r="3" fill="#38BDF8"/>
-    <text x="395" y="263">AUTOMAÇÃO</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">
+    <rect x="79" y="282" width="86" height="30" rx="15" fill="#0EA5E9" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.35"/>
+    <text x="101" y="302" fill="#BAE6FD">PYTHON</text>
+    <rect x="176" y="282" width="78" height="30" rx="15" fill="#7C3AED" fill-opacity="0.14" stroke="#A78BFA" stroke-opacity="0.35"/>
+    <text x="199" y="302" fill="#DDD6FE">.NET</text>
+    <rect x="265" y="282" width="78" height="30" rx="15" fill="#10B981" fill-opacity="0.12" stroke="#34D399" stroke-opacity="0.35"/>
+    <text x="287" y="302" fill="#A7F3D0">APIS</text>
+    <rect x="354" y="282" width="112" height="30" rx="15" fill="#F59E0B" fill-opacity="0.11" stroke="#FBBF24" stroke-opacity="0.32"/>
+    <text x="378" y="302" fill="#FDE68A">EVENTOS</text>
   </g>
 
-  <rect x="0.75" y="0.75" width="1198.5" height="318.5" rx="25.25" stroke="#38BDF8" stroke-opacity="0.2" stroke-width="1.5"/>
+  <g filter="url(#shadow)">
+    <rect x="680" y="58" width="430" height="235" rx="18" fill="#07111F" stroke="#334155"/>
+    <path d="M680 104H1110" stroke="#334155"/>
+    <circle cx="710" cy="82" r="6" fill="#FB7185"/>
+    <circle cx="732" cy="82" r="6" fill="#FBBF24"/>
+    <circle cx="754" cy="82" r="6" fill="#34D399"/>
+    <text x="784" y="87" fill="#64748B" font-family="Consolas, monospace" font-size="13">ivan@backend:~</text>
+
+    <text x="710" y="139" fill="#38BDF8" font-family="Consolas, monospace" font-size="16">$</text>
+    <text x="733" y="139" fill="#CBD5E1" font-family="Consolas, monospace" font-size="16">build reliable_apis</text>
+    <text x="710" y="176" fill="#34D399" font-family="Consolas, monospace" font-size="15">✓ contracts explicit</text>
+    <text x="710" y="206" fill="#34D399" font-family="Consolas, monospace" font-size="15">✓ failures anticipated</text>
+    <text x="710" y="236" fill="#34D399" font-family="Consolas, monospace" font-size="15">✓ tests passing</text>
+    <text x="710" y="270" fill="#38BDF8" font-family="Consolas, monospace" font-size="16">$</text>
+    <rect x="733" y="257" width="9" height="17" rx="1" fill="#7DD3FC">
+      <animate attributeName="opacity" values="1;0.1;1" dur="1.15s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <circle cx="1142" cy="38" r="4" fill="#38BDF8" opacity="0.35">
+    <animate attributeName="r" values="4;8;4" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.65;0.2" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
 </svg>
