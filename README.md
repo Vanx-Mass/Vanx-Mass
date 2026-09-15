@@ -114,13 +114,19 @@
 
 ## GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vanx-Mass&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0A66C2&text_color=C9D1D9" alt="Estatísticas do GitHub" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vanx-Mass&layout=compact&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="Linguagens mais usadas" height="165" />
-</p>
+<!--
+Os cards de "Estatísticas" e "Linguagens" (github-readme-stats.vercel.app) foram removidos
+porque o serviço público compartilhado está retornando 503 (fica sobrecarregado com frequência).
+Para trazê-los de volta de forma confiável, hospede sua própria instância gratuita:
+1. https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own -> botão "Deploy"
+2. Conecte com sua conta GitHub/Vercel e adicione um GITHUB_TOKEN nas env vars do projeto.
+3. Troque "github-readme-stats.vercel.app" pela URL da sua instância nos <img src="...">:
+   <img src="https://SUA-INSTANCIA.vercel.app/api?username=Vanx-Mass&show_icons=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0A66C2&text_color=C9D1D9" />
+   <img src="https://SUA-INSTANCIA.vercel.app/api/top-langs/?username=Vanx-Mass&layout=compact&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" />
+-->
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Vanx-Mass&hide_border=true&background=0D1117&stroke=0D1117&ring=38BDF8&fire=0A66C2&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=6B7280" alt="Streak de contribuições" />
+  <img src="https://streak-stats.demolab.com/?user=Vanx-Mass&hide_border=true&background=0D1117&stroke=0D1117&ring=38BDF8&fire=0A66C2&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=6B7280&currStreakNum=FFFFFF&sideNums=C9D1D9" alt="Streak de contribuições" />
 </p>
 
 ## Como eu penso software
