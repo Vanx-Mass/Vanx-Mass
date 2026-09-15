@@ -15,6 +15,7 @@
 <p align="center">
   <a href="#projetos-em-destaque">Projetos</a> •
   <a href="#stack">Stack</a> •
+  <a href="#github-stats">Stats</a> •
   <a href="#como-eu-penso-software">Princípios</a> •
   <a href="#vamos-conversar">Contato</a>
 </p>
@@ -111,6 +112,17 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux" />
 </p>
 
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Vanx-Mass&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=0A66C2&text_color=C9D1D9" alt="Estatísticas do GitHub" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vanx-Mass&layout=compact&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="Linguagens mais usadas" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Vanx-Mass&hide_border=true&background=0D1117&stroke=0D1117&ring=38BDF8&fire=0A66C2&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=6B7280" alt="Streak de contribuições" />
+</p>
+
 ## Como eu penso software
 
 | 🔐 Confiabilidade | 🧭 Clareza | ⚡ Operação |
@@ -148,3 +160,5 @@ Se você está construindo APIs, automações ou produtos orientados a dados, se
   <a href="mailto:ivanmassanares@gmail.com">E-mail</a> •
   <a href="https://github.com/Vanx-Mass?tab=repositories">Todos os repositórios</a>
 </p>
+
+---
